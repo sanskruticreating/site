@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "index.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -29,7 +29,9 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#951ccc"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.0.2",
@@ -55,7 +57,7 @@
         "url": "https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700"
       }
     ],
-    "uniqCompNum": 47,
+    "uniqCompNum": 48,
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1472,10 +1474,10 @@
         },
         {
           "_params": {
-            "account": "mobirise",
+            "account": "sanskruti_creart",
             "showTitle": true,
             "layoutGridRadio": true,
-            "imagesPerRowGrid": 4,
+            "imagesPerRowGrid": "6",
             "rows": 2,
             "showMoreButton": true,
             "layoutSliderRadio": false,
@@ -1489,12 +1491,12 @@
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
             "overlay": true,
-            "overlayColor": "#efefef",
+            "overlayColor": "#ffe161",
             "overlayOpacity": 0.6
           },
           "title": "Follow &amp; Connect on Instagram",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Click to Connect</a>",
-          "display2": "display-2",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "display2": "display-5",
           "display4": "display-4",
           "alias": "instagram-feed",
           "_tags": [
@@ -1502,7 +1504,12 @@
           ],
           "_name": "instagram-feed-block",
           "_sourceTheme": "mobirise5",
-          "_anchor": "instagram-feed-block-x"
+          "_anchor": "instagram-feed-block-1b",
+          "_styles": {
+            ".inst__title": {
+              "color": "#000000"
+            }
+          }
         }
       ]
     },
